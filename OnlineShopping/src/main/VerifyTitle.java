@@ -15,7 +15,7 @@ driver.get("https://www.google.com/");
 	
 String pageTitle = driver.getTitle();
 
-if(pageTitle.equals("Google")) {
+if(pageTitle.equals("Yahoo")) {
 System.out.println("Google Application is Launch Successfully....Passed");
 }
 else {
